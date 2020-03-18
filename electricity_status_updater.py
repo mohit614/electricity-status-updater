@@ -4,7 +4,7 @@ import json
 import requests
 
 hostname = "mohit614.ddns.net" #example
-response = os.system("ping -c 1 " + hostname)
+#response = os.system("ping -c 1 " + hostname)
 
 def post_message(msg):
     WEBHOOK_URI = 'https://hooks.chime.aws/incomingwebhooks/2fb4b548-78a7-43cf-b63c-b15fd70e180f?token=xxxxxxxxxxxxxxxxxxxxxxx'
