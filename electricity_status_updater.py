@@ -22,7 +22,7 @@ count1=0
 count2=0
 #and then check the response...
 while 1==1:
-    response = os.system("ping -c 1 " + hostname)
+    response = response = os.system("ping -c 1 " + hostname + " > /dev/null 2>&1")
     if response == 0 and temp != response:
       message = '/md @msinghva , light came back, yahhh!!!'
       count2==0;
