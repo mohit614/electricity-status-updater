@@ -25,14 +25,14 @@ while 1==1:
     response = response = os.system("ping -c 1 " + hostname + " > /dev/null 2>&1")
     if response == 0 and temp != response:
       message = '/md @msinghva , light came back, yahhh!!!'
-      count2==0;
+      count2=0;
       count1+=1;
       if count1 == 4:
         temp = response
         post_message(message)
         count1=0
     if response != 0 and temp != response:
-      count1==0;
+      count1=0;
       count2+=1
       message = '/md @msinghva , Bad news...light gone'
       if count2==4:
