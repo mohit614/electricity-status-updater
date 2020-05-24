@@ -1,5 +1,5 @@
 # electricity-status-updater
-The script conitnuosly pings the Router IP to see if elecectricity is there at home. Since Routers IP is dyncamic we are using Dynamic DNS.
+The script conitnuosly pings the Router IP to see if electricity is there at home. Since Routers IP is dyncamic we are using Dynamic DNS.
 
 --> If continously 4 ping fails, it will deliver message that the "Electricity is out". And similary if four continuous ping succeeds after a failure it will say "Electricity came". 
 
